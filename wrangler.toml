@@ -1,9 +1,13 @@
 name = "brant-and-harry-bikes-pocketbase"
 compatibility_date = "2025-01-01"
 compatibility_flags = ["nodejs_compat"]
+main = "src/index.ts"
 
-[containers]
-[[containers.instances]]
+[[containers]]
 class_name = "PocketBaseContainer"
 image = "./Dockerfile"
 max_instances = 1
+
+[[migrations]]
+new_sqlite_classes = ["PocketBaseContainer"]
+new_tag = "v1"
