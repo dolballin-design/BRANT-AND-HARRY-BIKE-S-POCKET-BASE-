@@ -1,0 +1,9 @@
+name = "brant-and-harry-bikes-pocketbase"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[containers]
+[[containers.instances]]
+class_name = "PocketBaseContainer"
+image = "./Dockerfile"
+max_instances = 1
