@@ -1,0 +1,2 @@
+FROM ghcr.io/muchobien/pocketbase:latest
+EXPOSE 8090
