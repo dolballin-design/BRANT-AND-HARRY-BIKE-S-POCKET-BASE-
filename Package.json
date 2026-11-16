@@ -1,0 +1,11 @@
+{
+  "name": "brant-and-harry-bikes-pocketbase",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@cloudflare/containers": "^0.2.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
